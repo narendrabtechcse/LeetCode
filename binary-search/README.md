@@ -1,3 +1,4 @@
+[Discussion Post (created on 1/0/2022 at 12:5)](https://leetcode.com/problems/binary-search/discuss/1659402/0-ms-Java-Easy-Solution)  
 <h2>704. Binary Search</h2><h3>Easy</h3><hr><div><p>Given an array of integers <code>nums</code> which is sorted in ascending order, and an integer <code>target</code>, write a function to search <code>target</code> in <code>nums</code>. If <code>target</code> exists, then return its index. Otherwise, return <code>-1</code>.</p>
 
 <p>You must write an algorithm with <code>O(log n)</code> runtime complexity.</p>
