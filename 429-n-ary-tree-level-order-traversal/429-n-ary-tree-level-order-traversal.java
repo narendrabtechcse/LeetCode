@@ -18,40 +18,36 @@ class Node {
 */
 
 class Solution {
+    
+    List<List<Integer>> list_final = new ArrayList<>();
     public List<List<Integer>> levelOrder(Node root) {
         
+        if(root==null)
+            return list_final;
         
-        Queue<Node> queue = new LinkedList<>();
+        Queue<Node> queue = new LinkedList<Node>();
+        
         queue.offer(root);
-
-        List<List<Integer>> result = new LinkedList<>();
         
-        if(root == null){
-            return result;
-        }
-
         while(!queue.isEmpty())
         {
-            List<Integer> levelList = new LinkedList<>();
-
-            int qSize = queue.size();
-
-            for(int i=1;i<=qSize;i++) {
-                 Node presentNode = queue.poll();
-
-                levelList.add(presentNode.val);
-
-                for(Node child : presentNode.children){
-                if (child!= null)
-                    queue.offer(child);
-                }
+            int q_size = queue.size();
+            List<Integer> list = new ArrayList<Integer>();
+            for(int i=0;i<q_size;i++){
+            
+            Node presentNode = queue.poll();
+            list.add(presentNode.val);
+            
+            for(int j=0;j<presentNode.children.size();j++)
+            {
+                queue.offer(presentNode.children.get(j));
             }
-
-            result.add(levelList);
+                
+            }
+            list_final.add(list);
         }
-
-        return result;
         
+        return list_final;
         
     }
 }
