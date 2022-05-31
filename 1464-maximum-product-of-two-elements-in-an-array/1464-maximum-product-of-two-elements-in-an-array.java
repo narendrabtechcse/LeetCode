@@ -1,16 +1,15 @@
 class Solution {
     public int maxProduct(int[] nums) {
         
-        Queue<Integer> maxHeap = new PriorityQueue<Integer>(Collections.reverseOrder());
-
-        for(int i=0;i<nums.length;i++)
-        {
-            maxHeap.add(nums[i]);
+        int max1 = 0, max2 = 0;
+        for ( int n : nums ) {
+            if ( n > max1 ) {
+                max2 = max1;
+                max1 = n;
+            } else if ( n > max2) {
+                max2 = n;
+            }
         }
-        
-        int elem1 = maxHeap.poll();
-        int elem2 = maxHeap.poll();
-        
-        return (elem1-1)*(elem2-1);
+        return ( max1 - 1 ) * ( max2 - 1 );
     }
 }
