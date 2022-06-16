@@ -1,25 +1,34 @@
 class Solution {
-    // DFS
+    
+    List<List<Integer>> paths = new ArrayList<>();
+    
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
-        List<List<Integer>> paths = new ArrayList<>();
-        if (graph == null || graph.length == 0) {
+        
+        if(graph==null || graph.length==0)
             return paths;
-        }
-
-        dfs(graph, 0, new ArrayList<>(), paths);
+        
+        dfs(graph,0,new ArrayList<Integer>());
+        
         return paths;
+        
     }
-
-    void dfs(int[][] graph, int node, List<Integer> path, List<List<Integer>> paths) {
+    
+    public void dfs(int[][] graph,int node , List<Integer> path)
+    {
         path.add(node);
-        if (node == graph.length - 1) {
+        
+        if(node==graph.length-1)
+        {
             paths.add(new ArrayList<>(path));
             return;
         }
+        
         int[] nextNodes = graph[node];
-        for (int nextNode: nextNodes) {
-            dfs(graph, nextNode, path, paths);
-            path.remove(path.size() - 1);
-        }
+        
+        for(int nextNode:nextNodes)
+        {
+            dfs(graph,nextNode,path);
+            path.remove(path.size()-1);
+        }   
     }
 }
