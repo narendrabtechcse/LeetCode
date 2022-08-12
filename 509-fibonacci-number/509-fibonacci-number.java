@@ -1,18 +1,20 @@
 class Solution {
-    HashMap<Integer, Integer> cache = new HashMap<Integer, Integer>();
-
-    public int fib(int N) {
-    if (cache.containsKey(N)) {
-      return cache.get(N);
+    public int fib(int n) {
+        
+        int[] dp = new int[n+1];
+        
+        if(n==0 || n==1)
+            return n;
+        
+       
+        dp[0] = 0;
+        dp[1] = 1;
+        
+        for(int i=2;i<=n;i++)
+        {
+            dp[i] = dp[i-1]+dp[i-2];
+        }
+        
+        return dp[n];
     }
-    int result;
-    if (N < 2) {
-      result = N;
-    } else {
-      result = fib(N-1) + fib(N-2);
-    }
-    // keep the result in cache.
-    cache.put(N, result);
-    return result;
-  }
 }
