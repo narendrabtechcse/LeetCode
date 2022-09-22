@@ -1,12 +1,16 @@
 class Solution {
-    public String reverseWords(String s) {    
+    public String reverseWords(String s) {
+        
+        String[] words = s.split(" ");
+        
         StringBuffer outPutArr = new StringBuffer();
         int i = 0;
-        for(String word : s.split(" ")){
+        for(String word : words){
             outPutArr.append(new StringBuffer(word).reverse());
-            if(i!=s.split(" ").length-1)
+    
+            if(i!=words.length-1)
              outPutArr.append(" ");
-             i++;
+            i++;
         }
         return outPutArr.toString();
     }
