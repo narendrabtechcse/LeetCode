@@ -1,4 +1,4 @@
 # LeetCode
-Collection of LeetCode questions to ace the coding interview! - Created by Narendra Agrawal
+Collection of LeetCode questions ! - Created by Narendra Agrawal
 
 LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
