@@ -1,11 +1,17 @@
 class Solution {
-    public boolean winnerOfGame(String colors) {
-        int cntA=0,cntB=0;
-        for(int i=1;i<colors.length()-1;i++){
-             if(colors.charAt(i)=='A'&&colors.charAt(i-1)=='A'&&colors.charAt(i+1)=='A')cntA++;			
-            if(colors.charAt(i)=='B'&&colors.charAt(i-1)=='B'&&colors.charAt(i+1)=='B')cntB++;
-        }
+    public boolean winnerOfGame(String s) {
         
-        return cntA>cntB;
+        int a = 0, b = 0;
+        
+        for(int i=1; i<s.length()-1; i++){
+            if(s.charAt(i) == s.charAt(i-1) && s.charAt(i) == s.charAt(i+1)){
+                if(s.charAt(i) == 'A')
+                    a++;
+                else
+                    b++;
+			}
+        }
+                    
+        return a>b;
     }
 }
