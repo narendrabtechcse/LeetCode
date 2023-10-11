@@ -1,44 +1,52 @@
 class Solution {
     public int[] fullBloomFlowers(int[][] flowers, int[] people) {
-        List<Integer> temp = new ArrayList<>();
-        
-        for(int[] f : flowers){
-            temp.add(f[0]);
-            temp.add(f[1]);
-            temp.add(f[1] + 1);
+        // create two arrays that will store the start and the end
+        // blooming times of each flower and sort the arrays
+        int flowersLength = flowers.length;
+        int[] startBlooming = new int[flowersLength];
+        int[] endBlooming = new int[flowersLength];
+        for (int index = 0; index < flowersLength; index++) {
+            startBlooming[index] = flowers[index][0];
+            // add 1 because the bounds provided are inclusive; the blooming ends at the time given + 1
+            endBlooming[index] = flowers[index][1] + 1; 
         }
-        for(int ele : people){
-            temp.add(ele);
+
+        Arrays.sort(startBlooming);
+        Arrays.sort(endBlooming);
+
+        int peopleLength = people.length;
+        int[] answer = new int[peopleLength];
+
+        // for each person, do a binary search on both arrays to retrieve
+        // 1. the number of flowers that have started blooming
+        // 2. the number of flowers that have stopped blooming
+        // the answer is the difference between those two numbers
+        for (int index = 0; index < peopleLength; index++) {
+            int target = people[index];
+            int flowersStartBlooming = binarySearch(startBlooming, target);
+            int flowersStopBlooming = binarySearch(endBlooming, target);
+            answer[index] = flowersStartBlooming - flowersStopBlooming;
         }
-        Collections.sort(temp);
-        HashMap<Integer , Integer> map = new HashMap<>();
-        int ptr = 0;
-        HashMap<Integer , Integer> map2 = new HashMap<>();
-        for(int ele : temp){
-            if(!map.containsKey(ele)){
-                map.put(ele , ptr);
-                map2.put(ptr , ele);
-                ptr++;
+
+        return answer;
+    }
+
+    private int binarySearch(int[] arr, int target) {
+        int left = 0;
+        int right = arr.length - 1;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            int midValue = arr[mid];
+
+            if (midValue > target) {
+                right = mid - 1;
+            } else {
+                left = mid + 1;
             }
         }
-        long[] t = new long[ptr+1];
-        for(int[] f : flowers){
-            int start = map.get(f[0]);
-            int end = map.get(f[1] + 1);
-            t[start]++;
-            t[end]--;
-        }
-        long sum = 0;
-        for(int i = 0 ; i <= ptr ; i++){
-            sum += t[i];
-            t[i] = sum;
-        }
-        
-        int[] ans = new int[people.length];
-        for(int i = 0 ; i < people.length ; i++){
-            int ele = map.get(people[i]);
-            ans[i] = (int) t[ele]; 
-        }
-        return ans;
+
+        return left;
     }
+
 }
