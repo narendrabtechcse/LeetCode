@@ -1,21 +1,18 @@
 class Solution {
      public boolean backspaceCompare(String s, String t) {
-        StringBuilder sTemp = new StringBuilder();
-        StringBuilder tTemp = new StringBuilder();
-        for(int i = 0; i < s.length(); i++){
-            if(s.charAt(i) == '#' && sTemp.length() > 0){
-                sTemp.deleteCharAt(sTemp.length()-1);
+        return clearReversedOf(s).equals(clearReversedOf(t));
+    }
+    
+    public String clearReversedOf(String str) {
+        var sb = new StringBuilder();
+        for (int signs = 0, i = str.length() - 1; i >= 0; i--) {
+            if (str.charAt(i) == '#') {
+                signs++;
+                continue;
             }
-            else if(s.charAt(i) != '#')
-                sTemp.append(s.charAt(i));
+            if (signs == 0) { sb.append(str.charAt(i)); }
+            else { signs--; }
         }
-        for(int i = 0; i < t.length(); i++){
-            if(t.charAt(i) == '#' && tTemp.length() > 0){
-                tTemp.deleteCharAt(tTemp.length()-1);
-            }
-            else if(t.charAt(i) != '#')
-                tTemp.append(t.charAt(i));
-        }
-        return sTemp.toString().equals(tTemp.toString());
+        return sb.toString();
     }
 }
