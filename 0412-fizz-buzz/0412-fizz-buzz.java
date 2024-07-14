@@ -1,19 +1,17 @@
 class Solution {
-    public List<String> fizzBuzz(int n) {
-        List<String> answer = new ArrayList<>();
-        for (int i= 1; i <= n; i++) {
-            String current = "";
-            if (i % 3 == 0) {
-                current = "Fizz";
-            }
-            if (i % 5 == 0) {
-                current += "Buzz";
-            }
-            if (current.length() == 0) {
-                current = String.valueOf(i);
-            }
-            answer.add(current);
+    public List fizzBuzz(int n) {
+        List ans = new ArrayList<>();
+        for(int i = 1; i <= n; i++){
+            ans.add(
+                i % 15 == 0 ? "FizzBuzz" :
+                i % 5 == 0  ? "Buzz" :
+                i % 3 == 0  ? "Fizz" :
+                String.valueOf(i)
+            );
         }
-        return answer;
+
+        return ans;
     }
 }
+
+// TC: O(n), SC: O(n)
