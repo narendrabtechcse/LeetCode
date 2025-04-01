@@ -8,6 +8,7 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/narendrabtechcse/LeetCode/tree/master/0001-two-sum) |
 | [0605-can-place-flowers](https://github.com/narendrabtechcse/LeetCode/tree/master/0605-can-place-flowers) |
 | [0733-flood-fill](https://github.com/narendrabtechcse/LeetCode/tree/master/0733-flood-fill) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/narendrabtechcse/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -30,6 +31,7 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/narendrabtechcse/LeetCode/tree/master/0001-two-sum) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/narendrabtechcse/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## String
 |  |
