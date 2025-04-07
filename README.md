@@ -37,6 +37,7 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/narendrabtechcse/LeetCode/tree/master/0020-valid-parentheses) |
 | [0076-minimum-window-substring](https://github.com/narendrabtechcse/LeetCode/tree/master/0076-minimum-window-substring) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/narendrabtechcse/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Graph
@@ -51,4 +52,8 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 |  |
 | ------- |
 | [0076-minimum-window-substring](https://github.com/narendrabtechcse/LeetCode/tree/master/0076-minimum-window-substring) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/narendrabtechcse/LeetCode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
