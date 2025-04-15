@@ -13,6 +13,7 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 | [0605-can-place-flowers](https://github.com/narendrabtechcse/LeetCode/tree/master/0605-can-place-flowers) |
 | [0733-flood-fill](https://github.com/narendrabtechcse/LeetCode/tree/master/0733-flood-fill) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/narendrabtechcse/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2280-count-good-triplets-in-an-array](https://github.com/narendrabtechcse/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 ## Greedy
 |  |
 | ------- |
@@ -73,4 +74,28 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/narendrabtechcse/LeetCode/tree/master/0200-number-of-islands) |
+## Binary Search
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/narendrabtechcse/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+## Divide and Conquer
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/narendrabtechcse/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/narendrabtechcse/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+## Segment Tree
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/narendrabtechcse/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+## Merge Sort
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/narendrabtechcse/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+## Ordered Set
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/narendrabtechcse/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 <!---LeetCode Topics End-->
