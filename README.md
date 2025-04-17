@@ -14,6 +14,7 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 | [0733-flood-fill](https://github.com/narendrabtechcse/LeetCode/tree/master/0733-flood-fill) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/narendrabtechcse/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2280-count-good-triplets-in-an-array](https://github.com/narendrabtechcse/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+| [2626-count-the-number-of-good-subarrays](https://github.com/narendrabtechcse/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
 ## Greedy
 |  |
 | ------- |
@@ -42,6 +43,7 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 | [0076-minimum-window-substring](https://github.com/narendrabtechcse/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0133-clone-graph](https://github.com/narendrabtechcse/LeetCode/tree/master/0133-clone-graph) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/narendrabtechcse/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [2626-count-the-number-of-good-subarrays](https://github.com/narendrabtechcse/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
 ## String
 |  |
 | ------- |
@@ -61,6 +63,7 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 |  |
 | ------- |
 | [0076-minimum-window-substring](https://github.com/narendrabtechcse/LeetCode/tree/master/0076-minimum-window-substring) |
+| [2626-count-the-number-of-good-subarrays](https://github.com/narendrabtechcse/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
 ## Stack
 |  |
 | ------- |
