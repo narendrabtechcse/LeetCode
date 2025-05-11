@@ -24,6 +24,7 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 | ------- |
 | [0133-clone-graph](https://github.com/narendrabtechcse/LeetCode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/narendrabtechcse/LeetCode/tree/master/0200-number-of-islands) |
+| [0332-reconstruct-itinerary](https://github.com/narendrabtechcse/LeetCode/tree/master/0332-reconstruct-itinerary) |
 | [0733-flood-fill](https://github.com/narendrabtechcse/LeetCode/tree/master/0733-flood-fill) |
 ## Breadth-First Search
 |  |
@@ -54,6 +55,7 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/narendrabtechcse/LeetCode/tree/master/0133-clone-graph) |
+| [0332-reconstruct-itinerary](https://github.com/narendrabtechcse/LeetCode/tree/master/0332-reconstruct-itinerary) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/narendrabtechcse/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Topological Sort
 |  |
@@ -101,4 +103,8 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 |  |
 | ------- |
 | [2280-count-good-triplets-in-an-array](https://github.com/narendrabtechcse/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+## Eulerian Circuit
+|  |
+| ------- |
+| [0332-reconstruct-itinerary](https://github.com/narendrabtechcse/LeetCode/tree/master/0332-reconstruct-itinerary) |
 <!---LeetCode Topics End-->
