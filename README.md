@@ -9,6 +9,7 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/narendrabtechcse/LeetCode/tree/master/0001-two-sum) |
+| [0066-plus-one](https://github.com/narendrabtechcse/LeetCode/tree/master/0066-plus-one) |
 | [0200-number-of-islands](https://github.com/narendrabtechcse/LeetCode/tree/master/0200-number-of-islands) |
 | [0605-can-place-flowers](https://github.com/narendrabtechcse/LeetCode/tree/master/0605-can-place-flowers) |
 | [0733-flood-fill](https://github.com/narendrabtechcse/LeetCode/tree/master/0733-flood-fill) |
@@ -107,4 +108,8 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/narendrabtechcse/LeetCode/tree/master/0332-reconstruct-itinerary) |
+## Math
+|  |
+| ------- |
+| [0066-plus-one](https://github.com/narendrabtechcse/LeetCode/tree/master/0066-plus-one) |
 <!---LeetCode Topics End-->
