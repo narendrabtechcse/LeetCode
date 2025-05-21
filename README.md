@@ -112,4 +112,12 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/narendrabtechcse/LeetCode/tree/master/0066-plus-one) |
+## Linked List
+|  |
+| ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/narendrabtechcse/LeetCode/tree/master/0024-swap-nodes-in-pairs) |
+## Recursion
+|  |
+| ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/narendrabtechcse/LeetCode/tree/master/0024-swap-nodes-in-pairs) |
 <!---LeetCode Topics End-->
