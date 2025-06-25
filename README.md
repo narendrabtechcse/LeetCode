@@ -13,6 +13,7 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 | [0200-number-of-islands](https://github.com/narendrabtechcse/LeetCode/tree/master/0200-number-of-islands) |
 | [0605-can-place-flowers](https://github.com/narendrabtechcse/LeetCode/tree/master/0605-can-place-flowers) |
 | [0733-flood-fill](https://github.com/narendrabtechcse/LeetCode/tree/master/0733-flood-fill) |
+| [0747-min-cost-climbing-stairs](https://github.com/narendrabtechcse/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/narendrabtechcse/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2280-count-good-triplets-in-an-array](https://github.com/narendrabtechcse/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/narendrabtechcse/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -120,4 +121,8 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 |  |
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/narendrabtechcse/LeetCode/tree/master/0024-swap-nodes-in-pairs) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0747-min-cost-climbing-stairs](https://github.com/narendrabtechcse/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
 <!---LeetCode Topics End-->
