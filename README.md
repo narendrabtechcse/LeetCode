@@ -17,6 +17,7 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/narendrabtechcse/LeetCode/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2280-count-good-triplets-in-an-array](https://github.com/narendrabtechcse/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/narendrabtechcse/LeetCode/tree/master/2626-count-the-number-of-good-subarrays) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/narendrabtechcse/LeetCode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Greedy
 |  |
 | ------- |
@@ -85,6 +86,7 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 |  |
 | ------- |
 | [2280-count-good-triplets-in-an-array](https://github.com/narendrabtechcse/LeetCode/tree/master/2280-count-good-triplets-in-an-array) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/narendrabtechcse/LeetCode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -125,4 +127,9 @@ LinkedIn Profile : https://www.linkedin.com/in/narendrajavadeveloper/
 |  |
 | ------- |
 | [0747-min-cost-climbing-stairs](https://github.com/narendrabtechcse/LeetCode/tree/master/0747-min-cost-climbing-stairs) |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/narendrabtechcse/LeetCode/tree/master/3661-maximum-walls-destroyed-by-robots) |
+## Sorting
+|  |
+| ------- |
+| [3661-maximum-walls-destroyed-by-robots](https://github.com/narendrabtechcse/LeetCode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 <!---LeetCode Topics End-->
